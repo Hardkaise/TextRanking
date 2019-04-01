@@ -10,13 +10,12 @@ def error_argument(arg_size):
 def usage(argv):
     if argv == "--help":
         print("\nUSAGE:\n"
-              "\t./indexer.py file nb win_x win_y\n"
-              "\t./indexer.py --help\n\n"
+              "\t./text_ranking.py file1 file2 query\n"
+              "\t./text_ranking.py --help\n\n"
               "\t\t--help display help\n"
-              "\t\tfile: a .txt filename\n"
-              "\t\tnb: number of words display in the graphics (default 25) (optional)\n"
-              "\t\twin_x: width in pixel of the window (ex: 1920 pixel -> 19.2) (default = 1920) (optional)\n"
-              "\t\twin_y: height in pixel of the window (ex: 1080 pixel -> 10.8) (default = 1080) (optional)\n")
+              "\t\tfile1: a .txt filename\n"
+              "\t\tfile1: a .txt filename\n"
+              "\t\tquery: a string with some words\n")
         exit(0)
 
 

@@ -21,7 +21,6 @@ if __name__ == '__main__':
     dict2 = parse(content2)
     is_dict_empty(dict1)
     is_dict_empty(dict2)
-    query = dict()
-    query[sys.argv[3]] = 1
+    query = parse(sys.argv[3])
     cosine_calculation(dict1, dict2, query, sys.argv[3], sys.argv[1], sys.argv[2])
 
